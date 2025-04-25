@@ -35,6 +35,15 @@ and the frontend enforces this with:
 **Seed the Admin User:**
 - rails db:seed
 
+**Create .env file for backend**
+- add `JWT_SECRET`.
+- you can create secret key using `rails secret`
+
+
+**Create .env file for frontend**
+- add `VUE_APP_API_URL`.
+- example: http://localhost:3000/admin
+
 **Admin credentials:**
 - username: admin
 - passowrd: password123

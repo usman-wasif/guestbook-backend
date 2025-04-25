@@ -15,6 +15,8 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'rack-cors'
 gem 'rspec-rails', '~> 6.1.0'
 gem 'simplecov', require: false
+gem 'jwt'
+gem 'dotenv-rails'
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
