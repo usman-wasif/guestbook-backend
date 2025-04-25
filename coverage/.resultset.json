@@ -1,0 +1,163 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/dev/Documents/guestbook-backend/app/controllers/admin_panel/comments_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          2,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          6,
+          5,
+          5,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/dev/Documents/guestbook-backend/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/dev/Documents/guestbook-backend/app/controllers/comments_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          3,
+          null,
+          null
+        ]
+      },
+      "/Users/dev/Documents/guestbook-backend/app/models/comment.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/dev/Documents/guestbook-backend/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/dev/Documents/guestbook-backend/app/models/admin.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/dev/Documents/guestbook-backend/app/channels/application_cable/channel.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/dev/Documents/guestbook-backend/app/channels/application_cable/connection.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/dev/Documents/guestbook-backend/app/channels/comments_channel.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/dev/Documents/guestbook-backend/app/jobs/application_job.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/dev/Documents/guestbook-backend/app/mailers/application_mailer.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      }
+    },
+    "timestamp": 1745580010
+  }
+}
