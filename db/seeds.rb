@@ -1,1 +1,1 @@
-Admin.create(username: 'admin', password: 'password123')
+AdminUser.create(username: 'admin', password: 'password123')

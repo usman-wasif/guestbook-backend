@@ -1,12 +1,11 @@
 class CommentsController < ApplicationController
   def index
-    comments = Comment.where(is_spam: false).order(created_at: :desc).limit(50)
+    comments = Comment.recent_non_spam
     render json: comments
   end
 
   def create
     comment = Comment.new(comment_params)
-    comment.is_spam ||= false
     if comment.save
       ActionCable.server.broadcast('comments_channel', comment)
       render json: comment, status: :created

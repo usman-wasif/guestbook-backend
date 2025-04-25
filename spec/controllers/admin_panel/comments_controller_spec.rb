@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe AdminPanel::CommentsController, type: :controller do
   let!(:admin) do
-    admin = Admin.new(username: 'admin')
+    admin = AdminUser.new(username: 'admin')
     admin.password = 'password123'
     admin.save!
     admin
