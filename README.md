@@ -32,6 +32,13 @@ and the frontend enforces this with:
 - rails db:create
 - rails db:migrate
 
+**Seed the Admin User:**
+- rails db:seed
+
+**Admin credentials:**
+- username: admin
+- passowrd: password123
+
 
 **Start the Rails Server:**
 - rails s
