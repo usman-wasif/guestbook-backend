@@ -41,8 +41,9 @@ and the frontend enforces this with:
 
 
 **Create .env file for frontend**
-- add `VUE_APP_API_URL`.
-- example: http://localhost:3000/admin
+- add `VUE_APP_API_URL_Admin`.
+- add `VUE_APP_API_URL_USER`
+- check the example env
 
 **Admin credentials:**
 - username: admin
